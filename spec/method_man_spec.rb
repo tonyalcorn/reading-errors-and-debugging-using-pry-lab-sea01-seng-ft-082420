@@ -8,6 +8,6 @@ end
 
 describe "method_man" do
   it "`play_game` should return a string that states which player is better" do
-    expect(play_game("Jay-Z", "Beyonce")).to eq("Jay-Z is better than Beyonce")
+    expect(play_game("Jay-Z", "Beyonce")) == ("Jay-Z is better than Beyonce")
   end
 end
